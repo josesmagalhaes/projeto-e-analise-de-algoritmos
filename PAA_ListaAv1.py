@@ -83,7 +83,7 @@ while (opcao!=9):
 
                 print(n, "|", A, " |", round(B, 1), " |")
                 if (B < A):
-                    print("Até N = ", n, " o primeiro é mais rápido que o segundo!")
+                    print("Até N = ", n-1, " o primeiro é mais rápido que o segundo!")
                     break
         else:
             break
